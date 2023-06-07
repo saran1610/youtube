@@ -1,0 +1,94 @@
+.navsec {
+  margin-top: 10px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .logo {
+    a {
+      img {
+        height: 50px;
+        width: 100px;
+      }
+    }
+  }
+  .profilepic {
+    img {
+      border-radius: 50%;
+      width: 30px;
+    }
+  }
+  .inputbox {
+    gap: 10px;
+    .searchcontainer {
+      border: 1px solid #ccc;
+      border-radius: 25px;
+      height: 40px;
+    }
+
+    .input {
+      outline: none;
+      border: none;
+      width: 500px;
+      border-radius: 25px 0 0 25px;
+      padding: 8px;
+      display: inline-block;
+      height: 100%;
+      padding: 0 20px;
+    }
+    button {
+      outline: none;
+      border: none;
+      display: inline-block;
+      border-radius: 0 25px 25px 0;
+      height: 100%;
+      width: 70px;
+    }
+    .mike{
+        line-height: 1.8;
+        text-align: center;
+        margin: 3px 0;
+        
+        height: 36px;
+        width: 36px;
+        .mikeicon{
+            font-size: 22px;
+        }
+        &:hover{
+            background-color: #ccc;
+            border-radius: 50%;
+            
+        }
+        
+    }
+  }
+
+  .icon {
+    line-height: 1.3;
+        text-align: center;
+    font-size: 23px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 3px 0;
+        
+    height: 36px;
+    width: 36px;
+    &:hover{
+        background-color: #ccc;
+        border-radius: 50%;
+        
+    }
+  }
+  .btns {
+    border-radius: 15px;
+    padding: 6px 5px;
+    border: none;
+  }
+  .photo {
+    border-radius: 50%;
+    width: 30px;
+  }
+  // .dropbtn{
+  //     padding: 20px;
+  // }
+}

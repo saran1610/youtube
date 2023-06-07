@@ -1,0 +1,98 @@
+iframe {
+  height: 500px;
+  width: 100%;
+
+  margin-top: 30px;
+ 
+}
+.channelcontent{
+  display: flex;
+  gap: 10px;
+}
+.actioncontainer{
+  display: flex;
+  gap: 10px;
+}
+.logopict {
+  img {
+    width: 30px;
+    border-radius: 50%;
+  }
+}
+.subbtn,
+.vdomainicon {
+  border: none;
+  display: flex;
+  background-color:lightgrey;
+  border-radius: 20px;
+  align-items: center;
+  padding: 20px 10px;
+  height: 10px;
+cursor: pointer;
+}
+.subbtn{
+  gap: 10px;
+  // border-radius: 20px;
+}
+.actiongap{
+  display: inline-block;
+}
+.despcontainer{
+  background-color:lightgrey;
+  border-radius: 20px;
+  padding: 16px;
+  cursor: pointer;
+}
+.sortby{
+  cursor: pointer;
+}
+.sidevideo{
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
+
+// .vdomainicon {
+//   // background-color: lightgrey;
+//   // padding: 20px 10px;
+//   // height: 10px;
+//   // border-radius: 20px;
+
+  
+// }
+.vdoicon{
+font-size: 20px;
+}
+.commentprfle{
+    width: 40px;
+    border-radius: 50%;
+}
+.inputbtn{
+    background: transparent;
+    border: none;
+   outline: none;
+   padding-left: 10px;
+  
+}
+
+    .sidelists{
+      display: flex;
+overflow-y: hidden;
+flex-wrap: nowrap;
+overflow-x: scroll;
+scroll-behavior: smooth;
+gap: 10px;
+span{
+  display: inline-block;
+  border: 1px solid;
+  padding: 2px 4px;
+  border-radius: 20px;
+  background-color: lightgray;
+  border: none;
+}
+
+
+    }
+    
+
